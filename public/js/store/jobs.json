@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "alias": "Marko Media",
+    "website": "http://www.markcomedia.com",
+    "from": "2012-02-02",
+    "to": "2012-02-02",
+    "time": "3 years"
+  },
+  {
+    "id": 2,
+    "alias": "LF",
+    "website": "#",
+    "from": "2012-02-02",
+    "to": "2012-02-02",
+    "time": "3 years"
+  },
+  {
+    "id": 3,
+    "alias": "theAudience",
+    "website": "http://www.theAudience.com",
+    "from": "2012-02-02",
+    "to": "current",
+    "time": "3 years"
+  }
+]

@@ -1,0 +1,35 @@
+<?php $env = isset($_SERVER['_ENV']) && $_SERVER['_ENV'] == "production" ? 'prod' : 'dev'; ?>
+<!doctype html>
+<html>
+<head>
+    <title>Aaron Lote</title>
+    <script data-main="js/main" src="js/libs/require/require.2.1.8.js"></script>
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1> <a href="#home">Aaron Lote</a> </h1>
+            <h2> Development and progress </h2>
+        </header>
+        <div id="navigation">
+            <ul>
+                <li><a href="#all">Home</a></li>
+                <li><a href="#details">Details</a></li>
+                <li><a href="#jobs">Jobs</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#references">References</a></li>
+            </ul>
+        </div>
+        <br />
+        <div id="main-container">
+            <div id="content-container"></div>
+        </div>
+    </div>
+    <?php if ($env == "prod") { ?>
+        <link rel="stylesheet" type="text/css"  href="/css/style.css" />
+    <?php } else { ?>
+        <link rel="stylesheet/less" type="text/css" href="/css/style.less" />
+        <script type="text/javascript" src="/js/libs/less.js" ></script>
+    <?php } ?>
+</body>
+</html>

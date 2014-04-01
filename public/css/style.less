@@ -1,0 +1,115 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,300,300italic,400italic,500,500italic,700,700italic,900,900italic,100italic);
+/* layout */
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+
+}
+html {
+  height: 100%;
+  width: 100%;
+  background-color: #f0f2f5;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+body {
+  background-image: url('/img/bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100%;
+
+  #container {
+    & {
+      width:75%;
+      margin: 0 auto;
+      background-color: rgba(0, 0, 0, 0.49);
+    }
+    header {
+      color: white;
+      padding: 15px;
+      letter-spacing: 1px;
+      border-bottom: 1px dotted red;
+      border-top: 1px dotted red;
+      margin-top: 15px;
+
+      h1 {
+        font-weight: 200;
+        font-size: 3em;
+        color: #656D78;
+        text-align: center;
+        a {
+          color: white;
+          text-decoration: none;
+        }
+      }
+      h2 {
+        text-align: center;
+        font-size: 1.2em;
+      }
+    }
+    #navigation {
+      height: 1.5em;
+      text-align: center;
+      ul {
+        padding-left: 25px;
+        li {
+          display: inline-block;
+          font-size: 1em;
+          padding: 10px 0;
+          margin-right: 35px;
+          letter-spacing: 2px;
+          a {
+            color: white;
+            text-decoration: none;
+            &:hover {
+              text-decoration: underline;
+            }
+          }
+        }
+      }
+    }
+  }
+  #main-container {
+    & {
+      padding: 25px 30px;
+      margin: 0 auto;
+    }
+    #content-container {
+      & {
+        padding: 15px;
+        line-height: 1.5em;
+        border: 1px solid #ccc;
+        box-shadow: 0px 5px 12px rgba(0, 0, 0, 0.1);
+        background: white;
+      }
+      h3 {
+        text-decoration: underline;
+        margin-bottom: 7px;
+        letter-spacing: 2px;
+      }
+      ul {
+        margin-left: 15px;
+        li {
+          margin-bottom: 10px;
+          &:last-child {
+            margin-bottom: 0px;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+/* pages */
+#details {
+  ul {
+    li {
+      list-style: none;
+    }
+  }
+}

@@ -1,0 +1,13 @@
+<div id="details">
+    <% if (loading) { %>
+            Currently Loading
+    <% } %>
+    <ul>
+        <% _.each(list, function(val, key) { %>
+            <li>
+               <h4><%=val.title%></h4>
+               <div><%=val.description%></div>
+            </li>
+        <% }) %>
+    </ul>
+</div>
