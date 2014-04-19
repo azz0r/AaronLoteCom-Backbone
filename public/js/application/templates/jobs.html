@@ -1,13 +1,9 @@
 <div id="jobs">
     <h3>Jobs</h3>
-    <% if (loading) { %>
-    Currently Loading
-    <% } %>
-    <ul>
-        <% _.each(list, function(val, key) { %>
+    <ul data-ng-repeat="item in collection">
         <li>
-            <a href="<%=val.website%>" target="_blank"><%=val.alias%></a>: from: <%=val.from%> to <%=val.to%> (<%=val.time%>)
+            <a href="{{item.website}}" target="_blank">{{item.alias}}</a>: from: {{item.from}} to {{item.to}}
+            ({{item.time}})
         </li>
-        <% }) %>
     </ul>
 </div>

@@ -1,0 +1,41 @@
+<?php $env = isset($_SERVER['_ENV']) && $_SERVER['_ENV'] == "production" ? 'prod' : 'dev'; ?>
+<!doctype html>
+<html>
+<head>
+    <title>Aaron Lote</title>
+</head>
+
+<body>
+
+<div id="container">
+    <header>
+        <h1> <a href="#home">Aaron Lote</a> </h1>
+        <h2> Development and progress </h2>
+    </header>
+    <div id="navigation">
+        <ul>
+            <li><a href="#all">Home</a></li>
+            <li><a href="#details">Details</a></li>
+            <li><a href="#jobs">Jobs</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#references">References</a></li>
+        </ul>
+    </div>
+    <br />
+    <div id="main-container">
+        <div id="content-container" ng-view></div>
+    </div>
+</div>
+
+<!-- end of the body, so lets include things -->
+    <script data-main="js/main.js" src="//marcoslin.github.io/angularAMD/js/lib/requirejs/require.js"></script>
+    <?php if ($env == "prod") { ?>
+        <link rel="stylesheet" type="text/css"  href="css/style.css" />
+    <?php } else { ?>
+        <link rel="stylesheet/less" type="text/css" href="css/style.less" />
+        <script type="text/javascript" src="library/less.js" ></script>
+    <?php } ?>
+<!-- end of the body so finish -->
+
+</body>
+</html>

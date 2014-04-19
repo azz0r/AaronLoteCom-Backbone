@@ -1,7 +1,8 @@
-<h2>View1</h2>
-
-<div>View Message: {{message}}</div>
-
-<hr>
-
-<a href="#/home">Home</a>
+<div id="experience">
+    <h3>Experience</h3>
+    <ul data-ng-repeat="item in collection">
+        <li>
+            {{item.title}}: {{item.time}}
+        </li>
+    </ul>
+</div>
