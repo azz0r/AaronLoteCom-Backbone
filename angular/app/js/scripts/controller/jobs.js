@@ -16,5 +16,10 @@ define(['app'],
             $scope.loaded = true;
             $scope.errors = err;
           });
+
+        $scope.delete = function (item) {
+          console.log(item);
+        };
+
       });
   });
