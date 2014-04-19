@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Personal Details",
+    "description": "I would like to add that I'm always looking for exciting new projects to occupy the mind. Im highlight interested in learning new frameworks, development methods and skill sets as well as refining my current skill set.Notably in my last two roles I have been managing web developers and although that appeals to me, I find myself more drawn to coding than managing. However I find both roles I can excel at and manage with a personal touch. To note, my academic qualifications list is not a highlight of my Curriculum Vitae, but I feel my knowledge and experience building, maintaining and developing are my true experience. If you would like to view websites I have coded, please email me a request."
+  },
+  {
+    "title": "Backbone Development",
+    "description": "I would like to add that I'm always looking for exciting new projects to occupy the mind. Im highlight interested in learning new frameworks, development methods and skill sets as well as refining my current skill set.Notably in my last two roles I have been managing web developers and although that appeals to me, I find myself more drawn to coding than managing. However I find both roles I can excel at and manage with a personal touch. To note, my academic qualifications list is not a highlight of my Curriculum Vitae, but I feel my knowledge and experience building, maintaining and developing are my true experience. If you would like to view websites I have coded, please email me a request."
+  },
+  {
+    "title": "MongoDB Development",
+    "description": "I would like to add that I'm always looking for exciting new projects to occupy the mind. Im highlight interested in learning new frameworks, development methods and skill sets as well as refining my current skill set.Notably in my last two roles I have been managing web developers and although that appeals to me, I find myself more drawn to coding than managing. However I find both roles I can excel at and manage with a personal touch. To note, my academic qualifications list is not a highlight of my Curriculum Vitae, but I feel my knowledge and experience building, maintaining and developing are my true experience. If you would like to view websites I have coded, please email me a request."
+  },
+  {
+    "title": "Zend Framework Development",
+    "description": "Installed and customised the default framework, developed custom modules, built video on demand capabilities, accounting facilities, administration and management abilities with deep user access level integration and user management."
+  },
+  {
+    "title": "Custom Framework Development",
+    "description": "During my early years learning via modification of other users scripts I set a target to develop my own framework to handle a forum script. During that time I created a complex framework that could handle 100′s of users constantly viewing, posting and modifying data. It was at this time that I was spotted by an entrepreneur who hired me to develop a website, that website turned out to by www.MyVoucherCodes.co.uk. This framework is still used by Markco Media. Despite millions of viewers each month my framework is powering the site with little to no downtime."
+  },
+  {
+    "title": "MySQL, Javascript, jQuery, HTML, CSS",
+    "description": "Obviously during my 10 years of web development I have learned the basic skill set of a web developer. My design skills are not a strong point but I can implement a design based on a PDF provided. I am also proficient at installing jQuery scripts and further development of them. After many years learning the rules of MySQL: I am exceptional at creating and optimising MYSQL queries."
+  },
+  {
+    "title": "Server Management",
+    "description": "I do have knowledge in server management. Ranging from handling support requests with server hosting to issuing SVN commands on the server to update and manage code.Through my experience I have learned to:+ Manage server memory (htop monitoring)+ SVN: checkout, update, diff, commit, etc+ Symbolic links to put media on storage servers+ Load management (spreading mirrored copies of code to speed up the users experience)."
+  },
+  {
+    "title": "Software Management",
+    "description": "After working with Windows for many years and recently switching to an Apple Mac: I am very efficient when it comes to managing programs and installing server software (mainly WAMP or MAMP)."
+  },
+  {
+    "title": "Office Management",
+    "description": "During my time at Markco Media as a web development manager: the office was being set up. My day-to-day during the initial set up period was spent installing computers onto the network, managing job agencies calls, reviewing CV’s and contacting potential employees. With supervision from the office manager I would then interview these candidates (including a custom PHP test I developed) and was allowed to decide on whether to hire them or not. During that time I built a team of 8 web developers that still work there to this day."
+  }
+]
