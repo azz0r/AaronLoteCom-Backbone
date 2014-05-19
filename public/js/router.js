@@ -18,6 +18,7 @@ define(
           'details':    'details',
           'jobs':       'jobs',
           'experience': 'experience',
+          'sites':      'sites',
           'references': 'references',
           '*actions':   'home'
         },
@@ -43,8 +44,16 @@ define(
           })
         },
 
+
         experience: function () {
           require(["application/views/experience"], function (View) {
+            showView(new View())
+          })
+        },
+
+
+        sites: function () {
+          require(["application/views/sites"], function (View) {
             showView(new View())
           })
         },
@@ -77,4 +86,4 @@ define(
 
 
   }
-)
+);

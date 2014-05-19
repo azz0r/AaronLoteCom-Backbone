@@ -5,7 +5,6 @@
   margin: 0;
   padding: 0;
   font-family: 'Roboto', sans-serif;
-
 }
 html {
   height: 100%;
@@ -76,8 +75,18 @@ body {
   }
   #main-container {
     & {
-      padding: 25px 30px;
+      padding: 0px 30px 25px;
       margin: 0 auto;
+    }
+    a {
+      color: #7c2422;
+      border-bottom: 1px dashed #7c2422;
+      text-decoration: none;
+      &:hover {
+        color: #7c2422;
+        border-bottom: 1px solid #7c2422;
+        text-decoration: none;
+      }
     }
     #content-container {
       & {
@@ -106,11 +115,44 @@ body {
 }
 
 
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+
+
+
 /* pages */
 #details {
   ul {
     li {
       list-style: none;
+    }
+  }
+}
+
+#sites {
+  .site {
+    ul.gallery {
+      margin: 0 !important; padding: 0;
+      li {
+        float: left;
+        list-style: none;
+        margin: 5px;
+        border: 3px solid #ccc;
+        padding: 5px;
+      }
+    }
+    .gallery:after {
+      clear: both;
     }
   }
 }
