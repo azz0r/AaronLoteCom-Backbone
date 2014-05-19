@@ -3,24 +3,21 @@
     "id": 1,
     "alias": "Marko Media",
     "website": "http://www.markcomedia.com",
-    "from": "2012-02-02",
-    "to": "2012-02-02",
-    "time": "3 years"
+    "from": "January 2007",
+    "to": "September 2009"
   },
   {
     "id": 2,
-    "alias": "LF",
-    "website": "#",
-    "from": "2012-02-02",
-    "to": "2012-02-02",
-    "time": "3 years"
+    "alias": "Lightfarm",
+    "website": "",
+    "from": "September 2009",
+    "to": "April 2011"
   },
   {
     "id": 3,
     "alias": "theAudience",
     "website": "http://www.theAudience.com",
-    "from": "2012-02-02",
-    "to": "current",
-    "time": "3 years"
+    "from": "April 2011",
+    "to": "April 2014"
   }
 ]

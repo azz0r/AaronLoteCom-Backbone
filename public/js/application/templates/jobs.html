@@ -6,7 +6,13 @@
     <ul>
         <% _.each(list, function(val, key) { %>
         <li>
-            <a href="<%=val.website%>" target="_blank"><%=val.alias%></a>: from: <%=val.from%> to <%=val.to%> (<%=val.time%>)
+            <strong>
+                <% if (!_.isEmpty(val.website)) { %>
+                    <a href="<%=val.website%>" target="_blank"><%=val.alias%></a>
+                <% } else { %>
+                    <%=val.alias%>
+                <% } %>
+            </strong> from <strong><%=val.from%></strong> to <strong><%=val.to%></strong>
         </li>
         <% }) %>
     </ul>
