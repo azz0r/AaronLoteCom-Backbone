@@ -106,3 +106,153 @@ h1,h2,h3 {
   text-transform:uppercase;
   letter-spacing:2px;
 }
+
+
+
+/*timeline*/
+.date{
+  position: relative;
+  float: left;
+  text-align: right;
+  width: 14%;
+  display: block;
+  font-size: 14px;
+  color: #666;
+  font-weight: 600;
+}
+
+span{
+  position: relative;
+  float: right;
+  height: 15px;
+  width: 15px;
+  margin-left: 10%;
+  margin-right: -9px;
+  border-radius: 10px;
+  background: tomato;
+  display: block;
+  z-index: 2;
+  }
+
+.job {
+  padding-top: 10px;
+  width: 100%;
+  display: block;
+}
+
+.job_description{
+  position: relative;
+  float: left;
+  display: block;
+  width: 80%;
+  padding-left: 5%;
+  padding-bottom: 5%;
+  border-left: 2px solid tomato;
+}
+
+.red .job_description {border-left: 2px solid #FF9D87;}
+.red span {background: #FF9D87;}
+
+.blue .job_description {border-left: 2px solid #71C5DF;}
+.blue span {background: #71C5DF;}
+
+.green .job_description {border-left: 2px solid #84C6A2;}
+.green span {background: #84C6A2;}
+
+.dark-green .job_description {border-left: 2px solid #558B6D;}
+.dark-green span {background: #558B6D;}
+
+.end .job_description {border-left: 2px solid transparent;}
+
+
+
+h1{
+  position: relative;
+  top: -14px;
+  font-size: 32px;
+  font-weight: 400;
+  color: #333;
+}
+
+h2{
+  margin-top: 10px;
+  font-size: 24px;
+  font-weight: 200px;
+  color: #666;
+  margin-bottom: 5px;
+}
+h3 {
+  font-size: 20px;
+  color: #666;
+  margin-bottom: 5px;
+}
+.content{
+  margin-top: 20px;
+  color: #777;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 800px) {
+  h1{font-size: 25px; top: -10px;}
+  h2{font-size: 16px;}
+  p{ font-size: 14px;}
+  
+  .date{font-size: 12px;}
+  
+}
+
+
+@media screen and (max-width: 700px) {
+
+#timeline{
+  width: 80%;
+  margin: 0 auto;
+  }  
+  
+.date{
+  position: relative;
+  float: left;
+  left: -7px;
+  text-align: left;
+  line-height: 37px;
+  width: 100%;
+  display: block;
+  }
+
+span{
+  position: relative;
+  float: left;
+  height: 15px;
+  width: 15px;
+  top: 10px;
+  left: 6px;
+  margin-left: -6px;
+  margin-right: 5%;
+  border-radius: 10px;
+  background: tomato;
+  display: inline-block;
+  }
+
+.job{
+  position: relative;
+  width: 100%;
+  display: block;
+  }
+
+.job_description{
+  margin-top: -15px;
+  position: relative;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  float: left;
+  display: block;
+  width: 100%;
+  }
+  
+}
+
+.my-photo {
+  width: 200px;
+  border-radius: 100%;
+  float: right;
+}
