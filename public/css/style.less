@@ -72,17 +72,19 @@ a {
 }
 /* center and adjust the sidebar contents on smaller devices */
 @media (max-width: 768px) {
-  #sidebar, #sidebar .logo a {
-    text-align:center;
+  #sidebar {
+    text-align:left;
     margin:0 auto;
-    margin-top:30px;
-    font-size:26px;
+    font-size:16px;
+    .logo a {
+      font-size: 20px;
+    }
   }
-  #sidebar a.logo {
-    font-size:50px;
-    height:75px;
-    width:75px;
-    margin-bottom:30px;
+  .column {
+    height: auto;
+    .padding {
+      padding: 8px;
+    }
   }
 }
 
@@ -150,17 +152,31 @@ span{
   border-left: 2px solid tomato;
 }
 
-.red .job_description {border-left: 2px solid #FF9D87;}
-.red span {background: #FF9D87;}
+@neonGreen: #6FFF00;
+@neonPink: #FF00FF;
+@neonYellow: #FFFF00;
+@neonBlue: #4D4DFF;
+@neonRed: #FE0001;
+@neonOrange: #FF4105;
+@neonPurple: #993CF3; 
 
-.blue .job_description {border-left: 2px solid #71C5DF;}
-.blue span {background: #71C5DF;}
+.red .job_description {border-left: 2px solid @neonRed;}
+.red span {background: @neonRed;}
 
-.green .job_description {border-left: 2px solid #84C6A2;}
-.green span {background: #84C6A2;}
+.pink .job_description {border-left: 2px solid @neonPink;}
+.pink span {background: @neonPink;}
 
-.dark-green .job_description {border-left: 2px solid #558B6D;}
-.dark-green span {background: #558B6D;}
+.orange .job_description {border-left: 2px solid $neonOrange;}
+.orange span {background: @neonOrange;}
+
+.green .job_description {border-left: 2px solid @neonGreen;}
+.green span {background: @neonGreen;}
+
+.blue .job_description {border-left: 2px solid @neonBlue;}
+.blue span {background: @neonBlue;}
+
+.purple .job_description {border-left: 2px solid @neonPurple;}
+.purple span {background: @neonPurple;}
 
 .end .job_description {border-left: 2px solid transparent;}
 
