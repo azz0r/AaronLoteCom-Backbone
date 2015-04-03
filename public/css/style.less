@@ -1,54 +1,42 @@
-
-
-/* custom template */
 html, body {
-   height: 100%;
-   font: 300 1em/1.5em "Helvetica Neue", sans-serif;
+  height: 100%;
+  font: 300 1em/1.5em "Helvetica Neue", sans-serif;
 }
-
 a {
   color:#222222;
 }
-
 .wrapper, .row {
-   height: 100%;
-   margin-left:0;
-   margin-right:0;
+  height: 100%;
+  margin-left:0;
+  margin-right:0;
 }
-
 .wrapper:before, .wrapper:after,
 .column:before, .column:after {
-    content: "";
-    display: table;
+  content: "";
+  display: table;
 }
-
 .wrapper:after,
 .column:after {
-    clear: both;
+  clear: both;
 }
-
 .column {
-    height: 100%;
-    overflow: auto;
-    *zoom:1;
+  height: 100%;
+  overflow: auto;
+  *zoom:1;
 }
-
 .column .padding {
-    padding: 20px;
+  padding: 20px;
 }
-
 .box {
-    bottom: 0; 
-    left: 0;
-    position: absolute;
-    right: 0;
-    top: 0;
+  bottom: 0; 
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
 }
-
 .divider {
   margin-top:32px;
 }
-
 #main {
     background-color:#fefefe;
 }
@@ -57,16 +45,18 @@ a {
   height:70px;
   width:70px;
 }
-
 #sidebar, #sidebar a {
   color:#ffffff;
   background-color: #e91e63;
   text-shadow:1px 0 1px #888888;
+  padding: 10px 15px;
 }
-#sidebar a.logo {
-  padding: 15px;
-  color: black;
-  margin:5px;
+#sidebar .logo {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+#sidebar .logo a {
+  padding-left: 15px;
   font-size:36px;
   font-weight:700;
   text-align:center;
@@ -74,15 +64,15 @@ a {
   text-shadow:0 0 0;
 }
 #sidebar-footer {
-  position:absolute;bottom:5px;
+  position:absolute;
+  bottom:5px;
 }
 #footer {
   margin-bottom:20px;
 }
-
 /* center and adjust the sidebar contents on smaller devices */
 @media (max-width: 768px) {
-  #sidebar,#sidebar a.logo {
+  #sidebar, #sidebar .logo a {
     text-align:center;
     margin:0 auto;
     margin-top:30px;
@@ -97,15 +87,11 @@ a {
 }
 
 
-
-
 /* bootstrap overrides */
-
 h1,h2,h3 {
    font-weight:800;
    font-family:'Open Sans',arial,sans-serif;
 }
-
 .jumbotron {
   background-color:transparent;
 }
@@ -120,5 +106,3 @@ h1,h2,h3 {
   text-transform:uppercase;
   letter-spacing:2px;
 }
-
-

@@ -15,12 +15,10 @@ define(
 
     var AppRouter = Backbone.Router.extend({
         routes: {
-          'details':    'details',
-          'jobs':       'jobs',
           'experience': 'experience',
-          '*actions':   'home'
+          'jobs': 'jobs',
+          '*actions': 'home'
         },
-
 
         home: function () {
           require(["application/views/home"], function (View) {
@@ -28,34 +26,19 @@ define(
           })
         },
 
-
         jobs: function () {
           require(["application/views/jobs"], function (View) {
             showView(new View())
           })
         },
 
-
-        details: function () {
-          require(["application/views/details"], function (View) {
-            showView(new View())
-          })
-        },
-
-
         experience: function () {
           require(["application/views/experience"], function (View) {
             showView(new View())
           })
-        },
+        }
 
-
-        index: function () {
-          require(["application/views/jobs"], function (View) {
-            showView(new View())
-          })
-        }}
-    )
+    });
 
 
     var initialize = function () {

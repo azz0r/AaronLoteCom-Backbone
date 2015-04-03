@@ -1,19 +1,8 @@
 <div id="jobs">
     <h3>Jobs</h3>
-    <% if (loading) { %>
-    Currently Loading
-    <% } %>
-    <ul>
-        <% _.each(list, function(val, key) { %>
-        <li>
-            <strong>
-                <% if (!_.isEmpty(val.website)) { %>
-                    <a href="<%=val.website%>" target="_blank"><%=val.alias%></a>
-                <% } else { %>
-                    <%=val.alias%>
-                <% } %>
-            </strong> from <strong><%=val.from%></strong> to <strong><%=val.to%></strong>
-        </li>
-        <% }) %>
-    </ul>
+    <p>
+        Throughout my career I have worked on many high traffic sites that serve a multiple purposes. During that
+        journey I have played many different roles: ranging from technical advisor, SEO strategist, coder,
+        web development manager, project owner and director of technology.
+    </p>
 </div>
