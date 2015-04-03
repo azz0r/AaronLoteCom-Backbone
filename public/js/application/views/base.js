@@ -12,7 +12,7 @@ define(['backbone'],
         templates: {}
       },
       els: {},
-      el: $('#content-container'),
+      el: $('#content-latch'),
 
 
       initialize: function (options) {

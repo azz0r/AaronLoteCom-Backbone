@@ -8,7 +8,7 @@ define(
 
 
     var showView = function (View) {
-      $('#content-container').empty()
+      $('#content-latch').empty()
       View.render()
     }
 
@@ -18,8 +18,6 @@ define(
           'details':    'details',
           'jobs':       'jobs',
           'experience': 'experience',
-          'sites':      'sites',
-          'references': 'references',
           '*actions':   'home'
         },
 
@@ -47,20 +45,6 @@ define(
 
         experience: function () {
           require(["application/views/experience"], function (View) {
-            showView(new View())
-          })
-        },
-
-
-        sites: function () {
-          require(["application/views/sites"], function (View) {
-            showView(new View())
-          })
-        },
-
-
-        references: function () {
-          require(["application/views/references"], function (View) {
             showView(new View())
           })
         },

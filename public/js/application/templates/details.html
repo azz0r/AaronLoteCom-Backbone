@@ -2,12 +2,9 @@
     <% if (loading) { %>
             Currently Loading
     <% } %>
-    <ul>
-        <% _.each(list, function(val, key) { %>
-            <li>
-               <h3><%=val.title%></h3>
-               <div><%=val.description%></div>
-            </li>
-        <% }) %>
-    </ul>
+    <% _.each(list, function(val, key) { %>
+       <h3><%=val.title%></h3>
+       <div><%=val.description%></div>
+       <br />
+    <% }) %>
 </div>

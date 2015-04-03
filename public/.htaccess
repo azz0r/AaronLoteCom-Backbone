@@ -1,5 +1,5 @@
 RewriteEngine on
-DirectoryIndex index.phtml
+DirectoryIndex index.html
 Options Indexes FollowSymLinks
 
 RewriteCond %{REQUEST_FILENAME} !-f
